@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">My Custom View</string>
+    <string name="my_button">My Button</string>
+</resources>
