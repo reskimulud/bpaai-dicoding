@@ -3,8 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/asus/AndroidStudioProjects/BPAAI/LatihanLocalizationPadaTeksStarter/app/src/main/res/layout-land/activity_main.xml" value="0.33" />
-        <entry key="..\:/Users/asus/AndroidStudioProjects/BPAAI/LatihanLocalizationPadaTeksStarter/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/BPAAI/LatihanLocalizationPadaTeksStarter/app/src/main/res/layout-land/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/BPAAI/LatihanLocalizationPadaTeksStarter/app/src/main/res/layout-sw600dp-land/activity_main.xml" value="0.5" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/BPAAI/LatihanLocalizationPadaTeksStarter/app/src/main/res/layout-sw600dp/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/BPAAI/LatihanLocalizationPadaTeksStarter/app/src/main/res/layout-w600dp-land/activity_main.xml" value="0.35315315315315315" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/BPAAI/LatihanLocalizationPadaTeksStarter/app/src/main/res/layout/activity_main.xml" value="0.22" />
       </map>
     </option>
   </component>
