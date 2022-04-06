@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fiche du produit</string>
+    <string name="price">12,80 €</string>
+    <string name="title_product">Chaussures de course</string>
+    <string name="date_upload">Téléchargé le 5 août 2021</string>
+    <string name="color_variant">Marron</string>
+    <string name="size_variant">42</string>
+    <string name="description">Cool chaussures de course en édition limitée. Le port de ces chaussures améliorera votre compréhension lors de l\'apprentissage du codage. Les choses sont toujours là. Différentes tailles et couleurs sont disponibles. Commandez maintenant!</string>
+    <string name="buy_now">Acheter maintenant!</string>
+    <string name="store">Magasin Dicoding</string>
+    <string name="rating">4.5 (1.249)</string>
+</resources>

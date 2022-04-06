@@ -1,12 +1,12 @@
 <resources>
     <string name="app_name">Product Detail</string>
-    <string name="price">Rp. 200.000,00</string>
-    <string name="title_product">Sepatu Lari</string>
-    <string name="shop">Toko Dicoding</string>
-    <string name="date_upload">Diunggah 5 Agu 2021</string>
-    <string name="color_variant">Coklat</string>
-    <string name="star_review">4.5 (1.249)</string>
+    <string name="price">$ 13.95</string>
+    <string name="title_product">Running Shoes</string>
+    <string name="store">Dicoding Store</string>
+    <string name="date_upload">Uploaded at Aug 5, 2021</string>
+    <string name="color_variant">Brown</string>
+    <string name="rating">4.5 (1.249)</string>
     <string name="size_variant">42</string>
-    <string name="description">Sepatu lari kece edisi terbatas. Memakai sepatu ini akan meningkatkan pemahamanmu ketika belajar coding.\n\nBarang selalu ada. Tersedia berbagai ukuran dan warna. Silakan langsung order!</string>
-    <string name="buy_now">Beli Sekarang!</string>
+    <string name="description">Cool limited edition running shoes. Wearing these shoes will improve your understanding when learning to code.  Stuff is always there. Various sizes and colors are available. Order now!</string>
+    <string name="buy_now">Buy Now!</string>
 </resources>

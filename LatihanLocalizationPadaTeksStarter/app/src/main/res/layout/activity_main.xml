@@ -96,7 +96,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
         android:fontFamily="sans-serif-black"
-        android:text="@string/shop"
+        android:text="@string/store"
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="@+id/nameTextView"
         app:layout_constraintTop_toBottomOf="@+id/nameTextView" />
@@ -133,7 +133,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:fontFamily="sans-serif-light"
-        android:text="@string/star_review"
+        android:text="@string/rating"
         android:textColor="@color/black"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/ratingImageView"
