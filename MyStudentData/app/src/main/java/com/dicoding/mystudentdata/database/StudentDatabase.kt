@@ -10,7 +10,7 @@ import kotlinx.coroutines.launch
 
 @Database(
     entities = [Student::class, University::class, Course::class],
-    version = 1,
+    version = 2,
     autoMigrations = [
         AutoMigration(from = 1, to = 2, spec = StudentDatabase.MyAutoMigration::class)
                      ],

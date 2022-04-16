@@ -2,6 +2,7 @@ package com.dicoding.mystudentdata.database
 
 import androidx.lifecycle.LiveData
 import androidx.room.*
+import androidx.sqlite.db.SupportSQLiteQuery
 
 @Dao
 interface StudentDao {
@@ -14,8 +15,8 @@ interface StudentDao {
     @Insert(onConflict = OnConflictStrategy.IGNORE)
     suspend fun insertCourse(course: List<Course>)
 
-    @Query("SELECT * from student")
-    fun getAllStudent(): LiveData<List<Student>>
+    @RawQuery(observedEntities = [Student::class])
+    fun getAllStudent(query: SupportSQLiteQuery): LiveData<List<Student>>
 
     @Transaction
     @Query("SELECT * from student")

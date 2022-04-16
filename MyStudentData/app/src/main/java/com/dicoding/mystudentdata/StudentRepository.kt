@@ -5,9 +5,14 @@ import com.dicoding.mystudentdata.database.Student
 import com.dicoding.mystudentdata.database.StudentAndUniversity
 import com.dicoding.mystudentdata.database.StudentDao
 import com.dicoding.mystudentdata.helper.InitialDataSource
+import com.dicoding.mystudentdata.helper.SortType
+import com.dicoding.mystudentdata.helper.SortUtils
 
 class StudentRepository(private val studentDao: StudentDao) {
-    fun getAllStudent(): LiveData<List<Student>> = studentDao.getAllStudent()
+    fun getAllStudent(sortType: SortType): LiveData<List<Student>>{
+        val query = SortUtils.getSortedQuery(sortType)
+        return studentDao.getAllStudent(query)
+    }
     fun getAllStudentAndUniversity(): LiveData<List<StudentAndUniversity>> = studentDao.getAllStudentAndUniversity()
 
 //    suspend fun insertAllData() {
