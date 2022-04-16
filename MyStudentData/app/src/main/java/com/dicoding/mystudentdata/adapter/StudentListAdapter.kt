@@ -2,6 +2,7 @@ package com.dicoding.mystudentdata.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import androidx.paging.PagedListAdapter
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
@@ -9,7 +10,7 @@ import com.dicoding.mystudentdata.database.Student
 import com.dicoding.mystudentdata.databinding.ItemStudentBinding
 
 class StudentListAdapter :
-    ListAdapter<Student, StudentListAdapter.WordViewHolder>(WordsComparator()) {
+    PagedListAdapter<Student, StudentListAdapter.WordViewHolder>(WordsComparator()) {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): WordViewHolder {
         val binding = ItemStudentBinding.inflate(LayoutInflater.from(parent.context), parent, false)

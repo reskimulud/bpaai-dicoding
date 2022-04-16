@@ -57,4 +57,6 @@ dependencies {
     implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.0'
     implementation 'androidx.activity:activity-ktx:1.4.0'
 
+    implementation 'androidx.paging:paging-runtime:2.1.2'
+
 }
